@@ -30,8 +30,6 @@ public class ClientReader implements Runnable{
                 Data.setText(in.readLine()); // + (char)10;
                 Data.setNewText(true);
 
-                System.out.println(in.readLine());
-
             }catch (IOException e) {
                 System.out.println("Read failed");
                 System.exit(-1);
